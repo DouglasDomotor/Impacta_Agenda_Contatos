@@ -1,30 +1,25 @@
 # Board do projeto (obrigatório na apresentação)
 
-Use **GitHub Projects** (recomendado, no mesmo repositório) ou **Trello**.
+Repositório: https://github.com/DouglasDomotor/Impacta_Agenda_Contatos
 
-## Colunas
+## Lista de funcionalidades (Issues)
 
-1. Backlog
-2. Em andamento
-3. Concluído
+| Card | Status na 1ª AC | Link |
+|------|-----------------|------|
+| 1ª AC — Cadastro e listagem de contatos | **Concluído** (fechar a issue no GitHub) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/1 |
+| 2ª AC — Editar, excluir e busca | Backlog (aberta) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/2 |
+| 3ª AC — Login / autenticação | Backlog (aberta) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/3 |
+| Final — Categorias/favoritos + polish | Backlog (aberta) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/4 |
 
-## Cards (lista de funcionalidades)
+Board rápido para o vídeo: https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues
 
-| Card | Coluna na 1ª AC |
-|------|-----------------|
-| 1ª AC — Cadastro e listagem de contatos | **Concluído** |
-| 2ª AC — Editar, excluir e busca | Backlog |
-| 3ª AC — Login / autenticação | Backlog |
-| Final — Categorias/favoritos + polish | Backlog |
+## GitHub Projects (recomendado no vídeo)
 
-## Como criar no GitHub Projects
-
-1. Crie o repositório no GitHub e faça o push do código.
-2. No repositório: **Projects** → **New project** → Board.
-3. Renomeie as colunas para: Backlog, Em andamento, Concluído.
-4. Adicione os 4 cards acima.
-5. Mova **1ª AC — Cadastro e listagem de contatos** para **Concluído**.
-6. Copie o link do Project e use no Classroom e no vídeo.
+1. Abra o repositório → **Projects** → **New project** → Board.
+2. Colunas: Backlog | Em andamento | Concluído.
+3. Adicione as 4 issues acima como cards.
+4. Mova a issue **#1 (1ª AC)** para **Concluído** (e feche a issue).
+5. Copie o link do Project para o Classroom e para o início do vídeo.
 
 ## Alternativa: Trello
 
