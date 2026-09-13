@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Lista de Contatos{% endblock %}
+
+{% block content %}
+<section class="panel">
+  <div class="panel-head">
+    <h1>Contatos cadastrados</h1>
+    <a class="btn" href="{% url 'novo_contato' %}">Cadastrar contato</a>
+  </div>
+
+  {% if contatos %}
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>E-mail</th>
+          <th>Criado em</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for contato in contatos %}
+          <tr>
+            <td>{{ contato.nome }}</td>
+            <td>{{ contato.telefone }}</td>
+            <td>{{ contato.email }}</td>
+            <td>{{ contato.criado_em|date:"d/m/Y H:i" }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="empty">Nenhum contato cadastrado ainda. Use o botão acima para adicionar o primeiro.</p>
+  {% endif %}
+</section>
+{% endblock %}

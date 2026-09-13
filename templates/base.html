@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Agenda de Contatos{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div>
+        <p class="brand">Agenda de Contatos</p>
+        <p class="subtitle">1ª AC — Cadastro e listagem</p>
+      </div>
+      <nav class="nav">
+        <a href="{% url 'lista_contatos' %}">Lista</a>
+        <a class="btn" href="{% url 'novo_contato' %}">Novo contato</a>
+      </nav>
+    </header>
+
+    {% if messages %}
+      <ul class="messages">
+        {% for message in messages %}
+          <li class="message {{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    <main class="main">
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+</body>
+</html>

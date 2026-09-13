@@ -1,0 +1,40 @@
+
+Postada por Antonio de Oliveira Dias
+Antonio de Oliveira Dias
+Criado em: 13 de ago.13 de ago. (editado: 14 de ago.)
+Bom dia a todos. Sejam bem-vindos a matéria de Projeto de Software.
+
+O objetivo da matéria é o desenvolvimento de um software.
+
+O projeto deve ter 3 camadas de desenvolvimento, front-end, back-end e banco de dados
+ou pode ser um projeto de dados (BI, analise de dados)
+
+Podem se organizar em grupos de 1 ate 7 alunos.
+
+As entregas serao divididas em 3 ACs E uma entrega final equivalente a prova.
+
+Cada uma das 4 entregas devem apresentar uma nova funcionalidade em vídeo.
+
+Todos os alunos devem fazer a entrega das atividades pelo classroom, mesmo que alguém do grupo já tenha feito a entrega.
+
+Nas entregas deverao ter:
+A lista dos alunos participantes no grupo
+O link do board do projeto com a lista de funcionalidades.
+O link do github com o codigo fonte desenvolvido.
+E principalmente o vídeo apresentando a funcionalidade desenvolvida no sprint.
+
+Nao ha restricao de linguagem de programacao ou de escopo do projeto.
+
+A entrega da 1a AC será dia 14/09
+A entrega da 2a AC será dia 13/10
+A entrega da 3a AC será dia 08/11
+
+A entrega final que vale a nota da prova será dia 22/11
+
+Teremos live aos sábados a partir das 11h para orientação dos projetos e responder as dúvidas.
+
+Link para a live que comeca neste sábado 15/08
+
+https://meet.google.com/edq-scwi-cpr
+
+Nao haverá live em feriados ou emendas de feriados.
