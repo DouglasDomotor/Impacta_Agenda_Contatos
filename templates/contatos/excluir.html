@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Excluir Contato{% endblock %}
+
+{% block content %}
+<section class="panel narrow">
+  <div class="panel-head">
+    <h1>Excluir contato</h1>
+  </div>
+
+  <p class="confirm-text">
+    Excluir <strong>{{ contato.nome }}</strong> ({{ contato.telefone }})? Essa ação não pode ser desfeita.
+  </p>
+
+  <form method="post" class="actions">
+    {% csrf_token %}
+    <a class="link" href="{% url 'lista_contatos' %}">Cancelar</a>
+    <button type="submit" class="btn btn-danger">Excluir</button>
+  </form>
+</section>
+{% endblock %}
