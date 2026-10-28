@@ -7,7 +7,7 @@ Repositório: https://github.com/DouglasDomotor/Impacta_Agenda_Contatos
 | Card | Status na 1ª AC | Link |
 |------|-----------------|------|
 | 1ª AC — Cadastro e listagem de contatos | **Concluído** (fechar a issue no GitHub) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/1 |
-| 2ª AC — Editar, excluir e busca | Backlog (aberta) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/2 |
+| 2ª AC — Editar, excluir e busca | **Concluído** (fechar a issue no GitHub) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/2 |
 | 3ª AC — Login / autenticação | Backlog (aberta) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/3 |
 | Final — Categorias/favoritos + polish | Backlog (aberta) | https://github.com/DouglasDomotor/Impacta_Agenda_Contatos/issues/4 |
 

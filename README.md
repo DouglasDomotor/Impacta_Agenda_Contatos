@@ -1,13 +1,21 @@
 # Agenda de Contatos
 
-Projeto da disciplina **Projeto de Software** (Impacta) — 1ª AC.
+Projeto da disciplina **Projeto de Software** (Impacta). Entrega atual: **2ª AC**.
 
-Aplicação web com **front-end** (templates Django), **back-end** (Django/Python) e **banco de dados** (SQLite) para cadastrar e listar contatos.
+Aplicação web com **front-end** (templates Django), **back-end** (Django/Python) e **banco de dados** (SQLite) para cadastrar, listar, buscar, editar e excluir contatos.
 
-## Funcionalidade da 1ª AC
+## Funcionalidades
+
+### 1ª AC — Cadastro e listagem
 
 - Cadastrar contato (nome, telefone, e-mail)
 - Listar contatos salvos no banco SQLite
+
+### 2ª AC — Editar, excluir e busca
+
+- Buscar por nome, telefone ou e-mail
+- Editar um contato já cadastrado
+- Excluir um contato, com tela de confirmação
 
 ## Requisitos
 
@@ -33,8 +41,10 @@ python manage.py runserver
 
 Abra no navegador: http://127.0.0.1:8000/
 
-- Lista: http://127.0.0.1:8000/
+- Lista e busca: http://127.0.0.1:8000/
 - Novo contato: http://127.0.0.1:8000/novo/
+- Editar: http://127.0.0.1:8000/<id>/editar/
+- Excluir: http://127.0.0.1:8000/<id>/excluir/
 
 ## Estrutura
 
@@ -58,6 +68,5 @@ Modelo de texto e roteiro de vídeo em [ENTREGA_AC1.md](ENTREGA_AC1.md).
 
 ## Próximas ACs (planejado)
 
-- 2ª AC: editar, excluir e busca
 - 3ª AC: login / autenticação
 - Final: categorias / favoritos + polish
